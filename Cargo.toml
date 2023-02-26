@@ -1,0 +1,13 @@
+[package]
+name = "vhdx_inspector"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.4.3"
+crc32c = "0.6.3"
+failure = "0.1.8"
+num = "0.4.0"
+uuid = "1.2.2"
