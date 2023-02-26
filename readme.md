@@ -7,6 +7,16 @@ with consultation to Microsoft's published VHDX specification at
 [[MS-VHDX]: Virtual Hard Disk v2 (VHDX) File Format](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-vhdx/83e061f8-f6e2-4de1-91bd-5d518a43d477).
 This program understands version 7.0 of the specification.
 
+## Building
+Download the code either by pulling with Git or by downloading from Github as a zip and extracting.
+
+In a terminal, change to the source location (the directory where 'Cargo.toml' is) and run:
+```
+cargo build --release
+```
+
+The output will be created in ./target/release.
+
 ## Usage
 vhdx_inspector [args] \<file name\>
 
